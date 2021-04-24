@@ -1,0 +1,33 @@
+// 
+// contact.scss
+// 
+
+.info-Bx {
+    padding: 40px;
+    background-color: $light !important;
+}
+
+.info-Bx-white {
+    background-color: $white !important;
+}
+
+.custom-form {
+    .form-control {
+        height: 42px;
+        font-size: 15px;
+        padding-left: 15px;
+        border-color: #e6eef9;
+        color: $muted;
+        // background-color: $light;
+        background-color: $white;
+    }
+    .form-control:focus {
+      border-color: $primary;
+        outline: 0;
+        box-shadow: none;
+    }
+    .contact-lable{
+        font-weight: 500;
+        color: $muted;
+    }
+  }

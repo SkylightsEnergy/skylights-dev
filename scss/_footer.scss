@@ -1,0 +1,30 @@
+//
+// footer.scss
+//
+.footer-link {
+    a {
+        color: $muted;
+        line-height: 38px;
+        font-size: 15px;
+        transition: all 0.5s;
+        font-weight: bold;
+        &:hover {
+            color: $primary;
+        }
+    }
+}
+.footer-link-less {
+    a {
+        color: $muted;
+        line-height: 28px;
+        font-size: 15px;
+        transition: all 0.5s;
+        font-weight: 500;
+        &:hover {
+            color: $primary;
+        }
+    }
+    i {
+        font-size: 18px;
+    }
+}

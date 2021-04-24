@@ -1,0 +1,18 @@
+// 
+// about.scss
+// 
+
+.about-box {
+    padding: 40px;
+    background-color: $light !important;
+}
+
+.about-box-2 {
+    padding: 30px 40px;
+    background-color: $white !important;
+    box-shadow: $box-shadow;
+    &:hover {
+        border: 2px solid $primary;
+        transition: 1s;
+    }
+}

@@ -1,0 +1,117 @@
+//
+// features.scss
+//
+
+.features-box {
+    position: relative;
+    box-shadow: $box-shadow;
+    padding: 35px 25px;
+    border-radius: 10px;
+    .feature-img {
+        position: relative;
+        width: 70px;
+        height: 70px;
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    &:hover {
+        // background-color: rgb(67, 126, 235);
+        background-color: $primary !important;
+        transition: all 0.5s ease-in-out;
+        h6 {
+            color: $white !important;
+        }
+        .feature-img {
+            img {
+                filter: brightness(0) invert(1);
+            }
+        }
+    }
+}
+
+.features-box-2 {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 35px 25px;
+    border-radius: 10px;
+    .feature-img {
+        position: relative;
+        width: 65px;
+        height: 65px;
+        img {
+            position: absolute;
+            top: -60px;
+            left: -40px;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            z-index: 10;
+            background-color: $white !important;
+        }
+    }
+    .feature-text {
+        margin-top: -50px;
+    }
+    &:hover {
+        border: 1px solid $blue;
+        box-shadow: $box-shadow;
+        transition: all 0.5s ease-in-out;
+    }
+}
+.features-box-3 {
+    position: relative;
+    padding: 35px 25px;
+    .feature-img {
+        position: relative;
+        width: 85px;
+        height: 85px;
+        margin-bottom: 20px;
+        display: block;
+        margin: 0 auto;
+        img {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}
+// form contact
+.search-form {
+    form {
+        position: relative;
+        max-width: 600px;
+        margin: 0px auto;
+    }
+    input {
+        padding: 17px 20px;
+        width: 100%;
+        font-size: 15px;
+        color: #787a7d !important;
+        border: none;
+        outline: none !important;
+        padding-right: 160px;
+        padding-left: 30px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 3px 6px 1px rgba(38, 107, 193, 0.08);
+        box-shadow: 0px 3px 6px 1px rgba(38, 107, 193, 0.08);
+    }
+    button {
+        position: absolute;
+        top: 7px;
+        right: 7px;
+        outline: none !important;
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 9px 30px;
+    }
+}
