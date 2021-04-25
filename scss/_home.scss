@@ -6,10 +6,32 @@
     // padding: 180px 0px 150px 0px;
     padding: 150px 0px 100px 0px;
     // background-image: url(../assets/bg/bg-1.png); linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    background-image: url("../assets/bg/SKYLIGHTS5.gif");
+    background-image: url("../assets/bg/SKYLIGHTS5a.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    animation-name: banner;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    perspective: 1000;
+    background-attachment: fixed;
+}
+@keyframes banner {
+    0% {
+        background-image: url("../assets/bg/SKYLIGHTS5b.jpg");
+        // background-position: 0% 0%;
+    }
+    // 18% {background-image: url(../img/2.jpg);}
+    50% {
+        background-image: url("../assets/bg/SKYLIGHTS5c.jpg");
+        // background-position: 0% -250%;
+    }
+    // 54% {background-image: url(../img/4.jpg);}
+    // 72% {background-image: url(../img/5.jpg);}
+    100% {
+        background-image: url("../assets/bg/SKYLIGHTS5d.jpg");
+        // background-position: 0% -500%;
+    }
 }
 .home-text {
     h2 {
