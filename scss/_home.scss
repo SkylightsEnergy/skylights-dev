@@ -130,13 +130,27 @@ svg {
 }
 
 .bg-home-use {
-    position: relative;
-    padding: 100px 0px 150px 0px;
+    // position: relative;
+    // padding: 100px 0px 150px 0px;
     // background-image: url(../assets/bg/bg-1.png);
     // background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../assets/bg/bg-4.jpeg);
     // background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../assets/bg/whybg.jpg);
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../assets/bg/why3.jpg);
-    background-repeat: no-repeat;
+    // background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../assets/bg/why3.jpg);
+    // background-repeat: no-repeat;
+    // background-position: center center;
+    // background-size: cover;
+    position: relative;
+    padding: 100px 0px 150px 0px;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../assets/bg/why3.jpg");
     background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
+}
+.test-animate-img {
+    position: relative;
+    z-index: -2;
+    img {
+        position: absolute;
+        height: 500px;
+    }
 }
