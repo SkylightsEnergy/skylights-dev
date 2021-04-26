@@ -1,6 +1,20 @@
 //
 // home.scss
 //
+.bg-home {
+    background-image: url("../assets/bg/SKYLIGHTS5a.jpg");
+    background-position: center center;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-name: banner;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    perspective: 1000;
+}
+
 .bg-home-6 {
     position: relative;
     // padding: 180px 0px 150px 0px;
@@ -10,11 +24,11 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    animation-name: banner;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    perspective: 1000;
-    background-attachment: fixed;
+    // animation-name: banner;
+    // animation-duration: 3s;
+    // animation-iteration-count: infinite;
+    // perspective: 1000;
+    // background-attachment: fixed;
 }
 @keyframes banner {
     0% {
@@ -141,7 +155,7 @@ svg {
     // background-size: cover;
     position: relative;
     padding: 100px 0px 150px 0px;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../assets/bg/why3.jpg");
+    // background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../assets/bg/why3.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
