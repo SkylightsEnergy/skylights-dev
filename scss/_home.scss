@@ -188,16 +188,18 @@ svg {
 }
 
 .bg-home-solutions {
+    margin-top: 120px;
+    // padding: 400px 0px;
     background-image: url("../assets/solutions/SKYLIGHTS6a.jpg");
     background-position: center center;
     position: relative;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     background-repeat: no-repeat;
     // background-size: contain;
     background-size: cover;
     animation-name: banner-solutions;
-    animation-duration: 3s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
     perspective: 1000;
 }
@@ -214,5 +216,10 @@ svg {
     }
     100% {
         background-image: url("../assets/solutions/SKYLIGHTS6d.jpg");
+    }
+}
+@media (max-width: 991px) {
+    .bg-home-solutions {
+        margin-top: 80px;
     }
 }
