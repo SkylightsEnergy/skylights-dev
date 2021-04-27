@@ -186,3 +186,33 @@ svg {
         height: 500px;
     }
 }
+
+.bg-home-solutions {
+    background-image: url("../assets/solutions/SKYLIGHTS6a.jpg");
+    background-position: center center;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    // background-size: contain;
+    background-size: cover;
+    animation-name: banner-solutions;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    perspective: 1000;
+}
+
+@keyframes banner-solutions {
+    0% {
+        background-image: url("../assets/solutions/SKYLIGHTS6a.jpg");
+    }
+    25% {
+        background-image: url("../assets/solutions/SKYLIGHTS6b.jpg");
+    }
+    50% {
+        background-image: url("../assets/solutions/SKYLIGHTS6c.jpg");
+    }
+    100% {
+        background-image: url("../assets/solutions/SKYLIGHTS6d.jpg");
+    }
+}
