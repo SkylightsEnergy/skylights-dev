@@ -8,6 +8,19 @@
     display: flex;
     background-repeat: no-repeat;
 }
+// .bg-home {
+//     background-image: url("../assets/about/SKYLIGHTS5a.jpg");
+//     background-position: center center;
+//     position: relative;
+//     height: 100vh;
+//     display: flex;
+//     background-repeat: no-repeat;
+//     background-size: contain;
+//     animation-name: banner;
+//     animation-duration: 3s;
+//     animation-iteration-count: infinite;
+//     perspective: 1000;
+// }
 .bg-home {
     background-image: url("../assets/bg/SKYLIGHTS5a.jpg");
     background-position: center center;
@@ -20,6 +33,36 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     perspective: 1000;
+}
+
+// @keyframes banner {
+//     0% {
+//         background-image: url("../assets/about/SKYLIGHTS5a.jpg");
+//     }
+//     25% {
+//         background-image: url("../assets/about/SKYLIGHTS5b.jpg");
+//     }
+//     50% {
+//         background-image: url("../assets/about/SKYLIGHTS5c.jpg");
+//     }
+//     100% {
+//         background-image: url("../assets/about/SKYLIGHTS5d.jpg");
+//     }
+// }
+
+@keyframes banner {
+    0% {
+        background-image: url("../assets/bg/SKYLIGHTS5a.jpg");
+    }
+    // 25% {
+    //     background-image: url("../assets/about/SKYLIGHTS5b.jpg");
+    // }
+    50% {
+        background-image: url("../assets/bg/SKYLIGHTS5b.jpg");
+    }
+    100% {
+        background-image: url("../assets/bg/SKYLIGHTS5c.jpg");
+    }
 }
 
 .bg-home-6 {
@@ -36,26 +79,7 @@
     // perspective: 1000;
     // background-attachment: fixed;
 }
-@keyframes banner {
-    0% {
-        background-image: url("../assets/bg/SKYLIGHTS5a.jpg");
-        // background-position: 0% 0%;
-    }
-    25% {
-        background-image: url("../assets/bg/SKYLIGHTS5b.jpg");
-    }
-    // 18% {background-image: url(../img/2.jpg);}
-    50% {
-        background-image: url("../assets/bg/SKYLIGHTS5c.jpg");
-        // background-position: 0% -250%;
-    }
-    // 54% {background-image: url(../img/4.jpg);}
-    // 72% {background-image: url(../img/5.jpg);}
-    100% {
-        background-image: url("../assets/bg/SKYLIGHTS5d.jpg");
-        // background-position: 0% -500%;
-    }
-}
+
 .home-text {
     h2 {
         // color: #253b5c;
