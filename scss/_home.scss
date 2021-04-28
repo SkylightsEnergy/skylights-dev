@@ -22,7 +22,8 @@
 //     perspective: 1000;
 // }
 .bg-home {
-    background-image: url("../assets/bg/SKYLIGHTS5a.jpg");
+    // background-image: url("../assets/bg/SKYLIGHTS5a.jpg");
+    background-image: url("../assets/bg/SKYLIGHTS5a.png");
     background-position: center center;
     position: relative;
     height: 100vh;
@@ -37,16 +38,16 @@
 
 @keyframes banner {
     0% {
-        background-image: url("../assets/bg/SKYLIGHTS5a.jpg");
+        background-image: url("../assets/bg/SKYLIGHTS5a.png");
     }
-    // 25% {
-    //     background-image: url("../assets/about/SKYLIGHTS5b.jpg");
-    // }
+    25% {
+        background-image: url("../assets/bg/SKYLIGHTS5b.png");
+    }
     50% {
-        background-image: url("../assets/bg/SKYLIGHTS5b.jpg");
+        background-image: url("../assets/bg/SKYLIGHTS5c.png");
     }
     100% {
-        background-image: url("../assets/bg/SKYLIGHTS5c.jpg");
+        background-image: url("../assets/bg/SKYLIGHTS5d.png");
     }
 }
 
@@ -68,8 +69,8 @@
 .home-text {
     h2 {
         // color: #253b5c;
-        font-size: 67px;
-        line-height: 76px;
+        // font-size: 67px;
+        // line-height: 76px;
         vertical-align: baseline;
         letter-spacing: normal;
         font-weight: 900;
@@ -77,8 +78,8 @@
     }
     h1 {
         // color: #253b5c;
-        font-size: 101px;
-        line-height: 76px;
+        // font-size: 101px;
+        // line-height: 76px;
         vertical-align: baseline;
         letter-spacing: normal;
         font-weight: 900;
@@ -86,7 +87,7 @@
     }
     h3 {
         // color: #253b5c;
-        font-size: 25px;
+        // font-size: 25px;
         line-height: 42px;
         vertical-align: baseline;
         letter-spacing: normal;
@@ -191,7 +192,7 @@ svg {
     margin-top: 120px;
     // padding: 400px 0px;
     // background-image: url("../assets/solutions/SKYLIGHTS6a.jpg");
-    background-image: url("../assets/test/SKYLIGHTS6a.jpg");
+    background-image: url("../assets/solutions/SKYLIGHTS6a.png");
     background-position: center center;
     position: relative;
     height: 80vh;
@@ -208,19 +209,19 @@ svg {
 @keyframes banner-solutions {
     0% {
         // background-image: url("../assets/solutions/SKYLIGHTS6a.jpg");
-        background-image: url("../assets/test/SKYLIGHTS6a.jpg");
+        background-image: url("../assets/solutions/SKYLIGHTS6a.png");
     }
     25% {
         // background-image: url("../assets/solutions/SKYLIGHTS6b.jpg");
-        background-image: url("../assets/test/SKYLIGHTS6b.jpg");
+        background-image: url("../assets/solutions/SKYLIGHTS6b.png");
     }
     50% {
         // background-image: url("../assets/solutions/SKYLIGHTS6c.jpg");
-        background-image: url("../assets/test/SKYLIGHTS6c.jpg");
+        background-image: url("../assets/solutions/SKYLIGHTS6c.png");
     }
     100% {
         // background-image: url("../assets/solutions/SKYLIGHTS6d.jpg");
-        background-image: url("../assets/test/SKYLIGHTS6d.jpg");
+        background-image: url("../assets/solutions/SKYLIGHTS6d.png");
     }
 }
 @media (max-width: 991px) {
