@@ -9,7 +9,7 @@
     transition: all;
     &:hover {
         box-shadow: $box-shadow;
-        transform: translateY(-5%);
+        // transform: translateY(-5%);
         transition: all 0.5s ease-in-out;
         border: none;
     }
