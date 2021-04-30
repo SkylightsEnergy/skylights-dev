@@ -245,3 +245,12 @@ svg {
         margin-top: 80px;
     }
 }
+
+.slider-nav .slick-slide {
+    opacity: 0.5;
+}
+
+.slider-nav .slick-slide.slick-active {
+    opacity: 1;
+    background: green;
+}
