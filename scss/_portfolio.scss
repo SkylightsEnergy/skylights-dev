@@ -63,28 +63,52 @@
 }
 
 // test-img
-.test-img {
+.test-img-1 {
     position: relative;
     width: 100%;
-    height: 350px;
-    // animation-name: banner-solutions;
-    // animation-duration: 10s;
-    // animation-iteration-count: infinite;
-    // background-image: url("../assets/test/laptop1a.png");
-    // img {
-    //     position: absolute;
-    //     top: 0;
-    //     left: 0;
-    //     width: 100%;
-    //     height: 100%;
-    //     object-fit: contain;
-    // }
-    // @keyframes banner-solutions {
-    //     0% {
-    //         background-image: url("../assets/test/laptop1a.png");
-    //     }
-    //     100% {
-    //         background-image: url("../assets/test/laptop1b.png");
-    //     }
-    // }
+    height: 250px;
+    animation-name: test-img-1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-image: url("../assets/test/laptop8a.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    @keyframes test-img-1 {
+        0% {
+            background-image: url("../assets/test/laptop8a.png");
+        }
+        100% {
+            background-image: url("../assets/test/laptop8b.png");
+        }
+    }
+}
+.test-img-2 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    animation-name: test-img-2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-image: url("../assets/test/laptop9a.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    @keyframes test-img-2 {
+        0% {
+            background-image: url("../assets/test/laptop9b.png");
+        }
+        25% {
+            background-image: url("../assets/test/laptop9b.png");
+        }
+        50% {
+            background-image: url("../assets/test/laptop9c.png");
+        }
+        75% {
+            background-image: url("../assets/test/laptop9d.png");
+        }
+        100% {
+            background-image: url("../assets/test/laptop9e.png");
+        }
+    }
 }

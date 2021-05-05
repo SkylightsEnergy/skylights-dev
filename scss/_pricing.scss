@@ -41,3 +41,39 @@
         background: $primary;
     }
 }
+
+.nav-link.active,
+.show > .nav-link {
+    background-color: $primary !important;
+}
+
+.nav-tabs-custom {
+    border-bottom: 2px solid $gray-400;
+
+    .nav-item {
+        position: relative;
+        color: $dark;
+        .nav-link {
+            border: none;
+
+            &::after {
+                content: "";
+                background: $primary;
+                height: 2px;
+                position: absolute;
+                width: 100%;
+                left: 0;
+                bottom: -1px;
+                transition: all 250ms ease 0s;
+                transform: scale(0);
+            }
+
+            &.active {
+                color: $primary;
+                &:after {
+                    transform: scale(1);
+                }
+            }
+        }
+    }
+}

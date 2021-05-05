@@ -1328,15 +1328,6 @@ svg {
     margin-top: 80px;
   }
 }
-.slider-nav .slick-slide {
-  opacity: 0.5;
-}
-
-.slider-nav .slick-slide.slick-active {
-  opacity: 1;
-  background: green;
-}
-
 .features-box {
   position: relative;
   box-shadow: 0px 3px 6px 1px rgba(38, 107, 193, 0.08);
@@ -1487,6 +1478,39 @@ svg {
   font-weight: 500;
   color: #ffffff;
   background: #d9391f;
+}
+
+.nav-link.active,
+.show > .nav-link {
+  background-color: #d9391f !important;
+}
+
+.nav-tabs-custom {
+  border-bottom: 2px solid #e6effe;
+}
+.nav-tabs-custom .nav-item {
+  position: relative;
+  color: #000;
+}
+.nav-tabs-custom .nav-item .nav-link {
+  border: none;
+}
+.nav-tabs-custom .nav-item .nav-link::after {
+  content: "";
+  background: #d9391f;
+  height: 2px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -1px;
+  transition: all 250ms ease 0s;
+  transform: scale(0);
+}
+.nav-tabs-custom .nav-item .nav-link.active {
+  color: #d9391f;
+}
+.nav-tabs-custom .nav-item .nav-link.active:after {
+  transform: scale(1);
 }
 
 .nav-pills > li > a {
@@ -1732,10 +1756,86 @@ svg {
   width: 100%;
 }
 
-.test-img {
+.test-img-1 {
   position: relative;
   width: 100%;
-  height: 350px;
+  height: 250px;
+  -webkit-animation-name: test-img-1;
+          animation-name: test-img-1;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  background-image: url("../assets/test/laptop8a.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+@-webkit-keyframes test-img-1 {
+  0% {
+    background-image: url("../assets/test/laptop8a.png");
+  }
+  100% {
+    background-image: url("../assets/test/laptop8b.png");
+  }
+}
+@keyframes test-img-1 {
+  0% {
+    background-image: url("../assets/test/laptop8a.png");
+  }
+  100% {
+    background-image: url("../assets/test/laptop8b.png");
+  }
+}
+
+.test-img-2 {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  -webkit-animation-name: test-img-2;
+          animation-name: test-img-2;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  background-image: url("../assets/test/laptop9a.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+@-webkit-keyframes test-img-2 {
+  0% {
+    background-image: url("../assets/test/laptop9b.png");
+  }
+  25% {
+    background-image: url("../assets/test/laptop9b.png");
+  }
+  50% {
+    background-image: url("../assets/test/laptop9c.png");
+  }
+  75% {
+    background-image: url("../assets/test/laptop9d.png");
+  }
+  100% {
+    background-image: url("../assets/test/laptop9e.png");
+  }
+}
+@keyframes test-img-2 {
+  0% {
+    background-image: url("../assets/test/laptop9b.png");
+  }
+  25% {
+    background-image: url("../assets/test/laptop9b.png");
+  }
+  50% {
+    background-image: url("../assets/test/laptop9c.png");
+  }
+  75% {
+    background-image: url("../assets/test/laptop9d.png");
+  }
+  100% {
+    background-image: url("../assets/test/laptop9e.png");
+  }
 }
 
 .footer-link a {
