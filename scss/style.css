@@ -901,6 +901,108 @@ hr {
   border-color: #437eeb;
 }
 
+.bg-blue-1 {
+  background-color: #3aa3d8 !important;
+}
+
+.bg-soft-blue-1 {
+  background-color: rgba(58, 163, 216, 0.1) !important;
+}
+
+.text-blue-1 {
+  color: #3aa3d8 !important;
+}
+
+.border-blue-1 {
+  color: #3aa3d8 !important;
+}
+
+.icon-dual-blue-1 {
+  color: #3aa3d8;
+  fill: rgba(58, 163, 216, 0.2);
+}
+
+.btn-soft-blue-1 {
+  background-color: rgba(58, 163, 216, 0.25) !important;
+  color: #3aa3d8 !important;
+}
+.btn-soft-blue-1:hover, .btn-soft-blue-1:focus, .btn-soft-blue-1:active, .btn-soft-blue-1.active, .btn-soft-blue-1.focus, .btn-soft-blue-1:not(:disabled):not(.disabled):active, .btn-soft-blue-1:not(:disabled):not(.disabled):active:focus,
+.btn-soft-blue-1 .open > .dropdown-toggle.btn-primary {
+  background: #2a9bd4;
+}
+
+.btn-blue-1 {
+  background: #3aa3d8 !important;
+  border-color: #3aa3d8 !important;
+}
+.btn-blue-1:hover, .btn-blue-1:focus, .btn-blue-1:active, .btn-blue-1.active, .btn-blue-1.focus, .btn-blue-1:not(:disabled):not(.disabled):active, .btn-blue-1:not(:disabled):not(.disabled):active:focus,
+.btn-blue-1 .open > .dropdown-toggle.btn-primary {
+  background: #d9391f !important;
+  border-color: #d9391f !important;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-outline-blue-1 {
+  color: #3aa3d8;
+  border-color: #3aa3d8;
+}
+.btn-outline-blue-1:hover, .btn-outline-blue-1:focus, .btn-outline-blue-1:active, .btn-outline-blue-1.active, .btn-outline-blue-1.focus, .btn-outline-blue-1:not(:disabled):not(.disabled):active, .btn-outline-blue-1:not(:disabled):not(.disabled):active:focus,
+.btn-outline-blue-1 .open > .dropdown-toggle.btn-primary {
+  background: #3aa3d8;
+  border-color: #3aa3d8;
+}
+
+.bg-green {
+  background-color: #00fe93 !important;
+}
+
+.bg-soft-green {
+  background-color: rgba(0, 254, 147, 0.1) !important;
+}
+
+.text-green {
+  color: #00fe93 !important;
+}
+
+.border-green {
+  color: #00fe93 !important;
+}
+
+.icon-dual-green {
+  color: #00fe93;
+  fill: rgba(0, 254, 147, 0.2);
+}
+
+.btn-soft-green {
+  background-color: rgba(0, 254, 147, 0.25) !important;
+  color: #00fe93 !important;
+}
+.btn-soft-green:hover, .btn-soft-green:focus, .btn-soft-green:active, .btn-soft-green.active, .btn-soft-green.focus, .btn-soft-green:not(:disabled):not(.disabled):active, .btn-soft-green:not(:disabled):not(.disabled):active:focus,
+.btn-soft-green .open > .dropdown-toggle.btn-primary {
+  background: #00ea87;
+}
+
+.btn-green {
+  background: #00fe93 !important;
+  border-color: #00fe93 !important;
+}
+.btn-green:hover, .btn-green:focus, .btn-green:active, .btn-green.active, .btn-green.focus, .btn-green:not(:disabled):not(.disabled):active, .btn-green:not(:disabled):not(.disabled):active:focus,
+.btn-green .open > .dropdown-toggle.btn-primary {
+  background: #d9391f !important;
+  border-color: #d9391f !important;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-outline-green {
+  color: #00fe93;
+  border-color: #00fe93;
+}
+.btn-outline-green:hover, .btn-outline-green:focus, .btn-outline-green:active, .btn-outline-green.active, .btn-outline-green.focus, .btn-outline-green:not(:disabled):not(.disabled):active, .btn-outline-green:not(:disabled):not(.disabled):active:focus,
+.btn-outline-green .open > .dropdown-toggle.btn-primary {
+  background: #00fe93;
+  border-color: #00fe93;
+}
+
 .brand-img {
   position: relative;
   width: 100px;
@@ -1116,7 +1218,7 @@ hr {
 }
 
 .bg-home {
-  background-image: url("../assets/bg/SKYLIGHTS5a.png");
+  background-image: url("../assets/test/home1.png");
   background-position: center center;
   position: relative;
   height: 100vh;
@@ -1134,31 +1236,37 @@ hr {
 
 @-webkit-keyframes banner {
   0% {
-    background-image: url("../assets/bg/SKYLIGHTS5a.png");
+    background-image: url("../assets/test/home1.png");
   }
   25% {
-    background-image: url("../assets/bg/SKYLIGHTS5b.png");
+    background-image: url("../assets/test/home2.png");
   }
   50% {
-    background-image: url("../assets/bg/SKYLIGHTS5c.png");
+    background-image: url("../assets/test/home3.png");
+  }
+  75% {
+    background-image: url("../assets/test/home4.png");
   }
   100% {
-    background-image: url("../assets/bg/SKYLIGHTS5d.png");
+    background-image: url("../assets/test/home5.png");
   }
 }
 
 @keyframes banner {
   0% {
-    background-image: url("../assets/bg/SKYLIGHTS5a.png");
+    background-image: url("../assets/test/home1.png");
   }
   25% {
-    background-image: url("../assets/bg/SKYLIGHTS5b.png");
+    background-image: url("../assets/test/home2.png");
   }
   50% {
-    background-image: url("../assets/bg/SKYLIGHTS5c.png");
+    background-image: url("../assets/test/home3.png");
+  }
+  75% {
+    background-image: url("../assets/test/home4.png");
   }
   100% {
-    background-image: url("../assets/bg/SKYLIGHTS5d.png");
+    background-image: url("../assets/test/home5.png");
   }
 }
 .bg-home-6 {
@@ -1759,7 +1867,7 @@ svg {
 .test-img-1 {
   position: relative;
   width: 100%;
-  height: 250px;
+  height: 450px;
   -webkit-animation-name: test-img-1;
           animation-name: test-img-1;
   -webkit-animation-duration: 10s;
@@ -1791,7 +1899,7 @@ svg {
 .test-img-2 {
   position: relative;
   width: 100%;
-  height: 250px;
+  height: 450px;
   -webkit-animation-name: test-img-2;
           animation-name: test-img-2;
   -webkit-animation-duration: 10s;

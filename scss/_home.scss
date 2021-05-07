@@ -23,10 +23,12 @@
 // }
 .bg-home {
     // background-image: url("../assets/bg/SKYLIGHTS5a.jpg");
-    background-image: url("../assets/bg/SKYLIGHTS5a.png");
+    // background-image: url("../assets/bg/SKYLIGHTS5a.png");
+    background-image: url("../assets/test/home1.png");
     background-position: center center;
     position: relative;
     height: 100vh;
+    // height: 60vh;
     display: flex;
     background-repeat: no-repeat;
     background-size: contain;
@@ -38,16 +40,23 @@
 
 @keyframes banner {
     0% {
-        background-image: url("../assets/bg/SKYLIGHTS5a.png");
+        // background-image: url("../assets/bg/SKYLIGHTS5a.png");
+        background-image: url("../assets/test/home1.png");
     }
     25% {
-        background-image: url("../assets/bg/SKYLIGHTS5b.png");
+        // background-image: url("../assets/bg/SKYLIGHTS5b.png");
+        background-image: url("../assets/test/home2.png");
     }
     50% {
-        background-image: url("../assets/bg/SKYLIGHTS5c.png");
+        // background-image: url("../assets/bg/SKYLIGHTS5c.png");
+        background-image: url("../assets/test/home3.png");
+    }
+    75% {
+        background-image: url("../assets/test/home4.png");
     }
     100% {
-        background-image: url("../assets/bg/SKYLIGHTS5d.png");
+        // background-image: url("../assets/bg/SKYLIGHTS5d.png");
+        background-image: url("../assets/test/home5.png");
     }
 }
 
