@@ -10,10 +10,26 @@
     }
 }
 
-// .pricing-tab-border {
-//     border: 1px solid $gray-400;
-// }
+.pricing-tab-border {
+    // border: 1px solid $gray-400;
+    .nav-item {
+        a {
+            &.active {
+                background-color: $gray;
+            }
+        }
+    }
+}
 
+.test-tab-border {
+    border: 1px solid $gray-400;
+}
+
+// .custom-tab {
+//     .nav-pills .nav-link.active {
+//         background-color: $gray !important;
+//     }
+// }
 //
 // Pills
 //
@@ -22,12 +38,16 @@
     font-weight: 900;
 }
 .nav-pills .nav-link.active {
-    background-color: transparent !important;
+    background-color: $gray !important;
 }
 // .nav-link.active,
 // .show > .nav-link {
 //     background-color: $primary !important;
 // }
+.nav-link.active,
+.show > .nav-link {
+    background-color: $primary !important;
+}
 
 .nav-tabs-custom {
     border-bottom: 2px solid $gray-400;

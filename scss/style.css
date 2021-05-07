@@ -1625,13 +1625,26 @@ svg {
   color: #000;
 }
 
+.pricing-tab-border .nav-item a.active {
+  background-color: #f8f9fc;
+}
+
+.test-tab-border {
+  border: 1px solid #e6effe;
+}
+
 .nav-link.active {
   color: #d9391f !important;
   font-weight: 900;
 }
 
 .nav-pills .nav-link.active {
-  background-color: transparent !important;
+  background-color: #f8f9fc !important;
+}
+
+.nav-link.active,
+.show > .nav-link {
+  background-color: #d9391f !important;
 }
 
 .nav-tabs-custom {
@@ -1864,6 +1877,38 @@ svg {
   width: 100%;
 }
 
+.test-img {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  -webkit-animation-name: test-img-1;
+          animation-name: test-img-1;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  background-image: url("../assets/test/laptop1a.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+@-webkit-keyframes test-img-1 {
+  0% {
+    background-image: url("../assets/test/laptop1a.png");
+  }
+  100% {
+    background-image: url("../assets/test/laptop1b.png");
+  }
+}
+@keyframes test-img-1 {
+  0% {
+    background-image: url("../assets/test/laptop1a.png");
+  }
+  100% {
+    background-image: url("../assets/test/laptop1b.png");
+  }
+}
+
 .test-img-1 {
   position: relative;
   width: 100%;
@@ -1878,14 +1923,6 @@ svg {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
-}
-@-webkit-keyframes test-img-1 {
-  0% {
-    background-image: url("../assets/test/laptop8a.png");
-  }
-  100% {
-    background-image: url("../assets/test/laptop8b.png");
-  }
 }
 @keyframes test-img-1 {
   0% {

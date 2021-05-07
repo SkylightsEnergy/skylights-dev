@@ -63,6 +63,26 @@
 }
 
 // test-img
+.test-img {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    animation-name: test-img-1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-image: url("../assets/test/laptop1a.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    @keyframes test-img-1 {
+        0% {
+            background-image: url("../assets/test/laptop1a.png");
+        }
+        100% {
+            background-image: url("../assets/test/laptop1b.png");
+        }
+    }
+}
 .test-img-1 {
     position: relative;
     width: 100%;
