@@ -25,6 +25,10 @@
     </head>
     <body>
         <!-- begin preloader -->
+        <div id="preloader"> 
+            <div id="status">
+            </div> 
+          </div>
         <!-- <div id="loader-wrapper">
             <div id="loader">
                 <div class="rotating">
@@ -794,7 +798,8 @@
             </div>
         </footer>
         <!-- load scripts -->
-        <script src="js/jquery.min.js"></script>
+        <!-- <script src="js/jquery.min.js"></script> -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/jquery.easing.min.js"></script>
         <script src="js/typed.js"></script>
@@ -833,19 +838,24 @@
  	        //     focusOnSelect: true,
             // });
         </script>
-        <!-- <script>
-            function preloader() {
-                if ($("#loader").length) {
-                    $("#loader").fadeOut();
-                    $("#loader").delay(350).fadeOut("slow");
-                    $("body").delay(350).css({ overflow: "visible" });
-                }
-            }
-            jQuery(window).on("load", function () {
-                setTimeout(function ($) {
-                    preloader();
-                }, 1500)(jQuery);
-            });
-        </script> -->
+        <script>
+            // function preloader() {
+            //     if ($("#loader").length) {
+            //         $("#loader").fadeOut();
+            //         $("#loader").delay(350).fadeOut("slow");
+            //         $("body").delay(350).css({ overflow: "visible" });
+            //     }
+            // }
+            // jQuery(window).on("load", function () {
+            //     setTimeout(function ($) {
+            //         preloader();
+            //     }, 1500)(jQuery);
+            // });
+            $(window).on('load',function() {
+                $('#status').fadeOut(); 
+                $('#preloader').delay(50).fadeOut(100);
+                $('body').delay(50).css({'overflow':'visible'});
+            })
+        </script>
     </body>
 </html>
