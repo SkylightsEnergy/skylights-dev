@@ -19,6 +19,11 @@
         <link rel="stylesheet" href="scss/style.css" />
     </head>
     <body>
+        <!-- begin preloader -->
+        <div id="preloader">
+            <div id="status"></div>
+        </div>
+        <!-- end -->
         <!-- begin topbar -->
         <nav class="navbar navbar-expand-lg fixed-top sticky topbar-custom">
             <div class="container">
@@ -536,6 +541,13 @@
         <script>
             $(document).ready(function () {
                 $('[data-toggle="tooltip"]').tooltip();
+            });
+        </script>
+        <script>
+            $(window).on("load", function () {
+                $("#status").fadeOut();
+                $("#preloader").delay(50).fadeOut(100);
+                $("body").delay(50).css({ overflow: "visible" });
             });
         </script>
     </body>
