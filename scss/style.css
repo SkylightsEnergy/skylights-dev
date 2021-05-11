@@ -1190,20 +1190,13 @@ hr {
 }
 
 .bg-home {
-  background-image: url("../assets/test/home1.png");
+  background-image: url("../assets/gif/home.gif");
   background-position: center center;
   position: relative;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   background-repeat: no-repeat;
   background-size: contain;
-  -webkit-animation-name: banner;
-          animation-name: banner;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  perspective: 1000;
 }
 
 @-webkit-keyframes banner {
@@ -1346,19 +1339,13 @@ svg {
 
 .bg-home-solutions {
   margin-top: 120px;
-  background-image: url("../assets/solutions/SKYLIGHTS6a.png");
+  background-image: url("../assets/gif/solution.gif");
   background-position: center center;
   position: relative;
   height: 70vh;
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-animation-name: banner-solutions;
-          animation-name: banner-solutions;
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
   perspective: 1000;
 }
 
@@ -1853,13 +1840,7 @@ svg {
   position: relative;
   width: 100%;
   height: 450px;
-  -webkit-animation-name: test-img-1;
-          animation-name: test-img-1;
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  background-image: url("../assets/test/laptop1a.png");
+  background-image: url("../assets/gif/home1.gif");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -1909,13 +1890,7 @@ svg {
   position: relative;
   width: 100%;
   height: 450px;
-  -webkit-animation-name: test-img-2;
-          animation-name: test-img-2;
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  background-image: url("../assets/test/laptop9a.png");
+  background-image: url("../assets/gif/home2.gif");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
