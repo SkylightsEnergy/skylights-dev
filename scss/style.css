@@ -1,6 +1,6 @@
-@import url(https://allfont.net/allfont.css?fonts=roboto-light);
+@import url(//db.onlinewebfonts.com/c/fc74760c72164d5321ac886797ce62eb?family=Gotham);
 body {
-  font-family: "Roboto Light", sans-serif;
+  font-family: "Gotham", sans-serif;
   color: #000 !important;
   font-size: 15px;
   scroll-behavior: smooth;
