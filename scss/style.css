@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url(https://allfont.net/allfont.css?fonts=roboto-light);
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto Light", sans-serif;
   color: #000 !important;
   font-size: 15px;
   scroll-behavior: smooth;
@@ -13,7 +13,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat Light", sans-serif;
   font-weight: 600;
   line-height: 1.5;
 }
@@ -1184,9 +1184,11 @@ hr {
 .bg-home-60 {
   background-position: center center;
   position: relative;
-  height: 60vh;
+  min-height: 60vh;
+  height: auto;
   display: flex;
   background-repeat: no-repeat;
+  padding-bottom: 100px;
 }
 
 .bg-home {
@@ -1247,12 +1249,14 @@ hr {
   letter-spacing: normal;
   font-weight: 900;
   text-transform: uppercase;
+  font-family: inherit;
 }
 .home-text h1 {
   vertical-align: baseline;
   letter-spacing: normal;
   font-weight: 900;
   text-transform: uppercase;
+  font-family: inherit;
 }
 .home-text h3 {
   line-height: 42px;
@@ -1261,6 +1265,7 @@ hr {
   font-weight: 900;
   text-transform: uppercase;
   margin-left: 470px;
+  font-family: inherit;
 }
 
 .illustration {
@@ -1594,7 +1599,7 @@ svg {
 
 .nav-link.active {
   color: #d9391f !important;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 .nav-pills .nav-link.active {
