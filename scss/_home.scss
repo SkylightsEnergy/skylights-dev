@@ -11,14 +11,15 @@
     padding-bottom: 100px;
 }
 .bg-home {
-    background-image: url("../assets/gif/home.gif");
+    background-image: url("../assets/test/homeImage2.png");
     background-position: center center;
     position: relative;
+    top: 10px;
     // height: 100vh;
     height: 70vh;
     display: flex;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     // animation-name: banner;
     // animation-duration: 3s;
     // animation-iteration-count: infinite;
@@ -224,4 +225,8 @@ svg {
     .bg-home-solutions {
         margin-top: 80px;
     }
+}
+
+.section-footer {
+    background-color: $bg-dark-gradient !important;
 }

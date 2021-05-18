@@ -5,8 +5,12 @@
 .features-box {
     position: relative;
     box-shadow: $box-shadow;
-    padding: 35px 25px;
+    // padding: 35px 25px;
+    width: 100%;
+    min-height: 150px;
+    height: auto;
     border-radius: 10px;
+    padding: 10px;
     .feature-img {
         position: relative;
         width: 70px;
