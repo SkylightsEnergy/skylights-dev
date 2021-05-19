@@ -173,7 +173,7 @@
                         </div> -->
                         <div class="p-4">
                             <div class="embed-responsive embed-responsive-16by9">
-                                <video controls autoplay muted>
+                                <video controls muted class="video">
                                     <source src="./assets/solutions/video/Dashboardvw14042021.m4v" type="video/mp4" />
                                 </video>
                             </div>
@@ -519,6 +519,17 @@
                     typeSpeed: 100, // typing speed
                     backDelay: 3000, // pause before backspacing
                 });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $(".video")
+                    .on("mouseover", function (event) {
+                        this.play();
+                    })
+                    .on("mouseout", function (event) {
+                        this.pause();
+                    });
             });
         </script>
         <!-- <script>
